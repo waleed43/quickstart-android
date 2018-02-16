@@ -72,7 +72,7 @@ public class PhoneAuthActivity extends AppCompatActivity implements
             onRestoreInstanceState(savedInstanceState);
         }
 
-        // Assign views
+        // Assign views's
         mPhoneNumberViews = findViewById(R.id.phone_auth_fields);
         mSignedInViews = findViewById(R.id.signed_in_buttons);
 
